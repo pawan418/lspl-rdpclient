@@ -1,11 +1,19 @@
 [package]
-name = "rustdesk"
-version = "1.3.5"
-authors = ["rustdesk <info@rustdesk.com>"]
-edition = "2021"
+name = "lspl-rdpclient"
+version = "1.0.0"
+authors = ["Er. Pawan Kr. Singh <pawan@longwaysoftronix.com>"]
+edition = "2024"
+description = "A remote control client."
+default-run = "lspl-rdpclient"
+
+#[package]
+#name = "rustdesk"
+#version = "1.3.5"
+#authors = ["rustdesk <info@rustdesk.com>"]
+#edition = "2021"
 build= "build.rs"
-description = "RustDesk Remote Desktop"
-default-run = "rustdesk"
+#description = "RustDesk Remote Desktop"
+#default-run = "rustdesk"
 rust-version = "1.75"
 
 [lib]
